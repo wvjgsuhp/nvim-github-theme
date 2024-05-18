@@ -1,0 +1,13 @@
+*~
+/benchmarks/
+/spell/
+/.vault.vim
+/.local.vimrc
+/.stignore
+/.stfolder
+/.stversions
+.session.vim
+NUL
+*.log
+.luarc.json
+*/local
