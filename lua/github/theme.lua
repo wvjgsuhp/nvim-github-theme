@@ -39,6 +39,7 @@ theme.set_highlights = function()
   hl(0, "PmenuTitle", { fg = c.fg, bg = c.float_bg, bold=true, })
   hl(0, "PmenuSeparator", { fg = c.visual_bg, bg = c.float_bg })
   hl(0, "PmenuEnd", { fg = c.float_bg, bg = c.float_bg })
+  hl(0, "FloatBorder", { link = 'PmenuBorder' })
 
   -- git
   hl(0, "DiffAdd", { fg = c.diff_add_fg, bg = c.diff_add_bg })

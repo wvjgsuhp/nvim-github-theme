@@ -113,6 +113,8 @@ PmenuTitle = 'fg float_bg b'
 PmenuSeparator = 'visual_bg float_bg'
 PmenuEnd = 'float_bg float_bg'
 
+FloatBorder = 'link:PmenuBorder'
+
 [git]
 DiffAdd = 'diff_add_fg diff_add_bg'
 DiffChange = '- fold_bg'
