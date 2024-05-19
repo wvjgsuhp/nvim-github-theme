@@ -236,6 +236,7 @@ NoicePopupBorder = 'link:Normal'
 NoicePopupmenuMatch = 'link:CmpItemAbbrMatch'
 NoiceSplit = 'link:Pmenu'
 NoiceConfirm = 'link:Pmenu'
+NoiceCmdlinePopupBorderSearch = 'warning bg'
 
 [notify]
 NotifyBackground = 'link:Pmenu'
