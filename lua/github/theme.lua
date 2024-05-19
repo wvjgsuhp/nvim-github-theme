@@ -36,7 +36,7 @@ theme.set_highlights = function()
   hl(0, "PmenuThumb", { fg = c.status_line_bg, bg = c.status_line_bg })
   hl(0, "PmenuBorder", { fg = c.float_bg, bg = c.float_bg })
   hl(0, "PmenuPadding", { fg = c.float_bg, bg = c.bg })
-  hl(0, "PmenuTitle", { fg = c.fg, bg = c.float_bg })
+  hl(0, "PmenuTitle", { fg = c.fg, bg = c.float_bg, bold=true, })
   hl(0, "PmenuSeparator", { fg = c.visual_bg, bg = c.float_bg })
   hl(0, "PmenuEnd", { fg = c.float_bg, bg = c.float_bg })
 
