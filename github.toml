@@ -114,6 +114,8 @@ PmenuSeparator = 'visual_bg float_bg'
 PmenuEnd = 'float_bg float_bg'
 
 FloatBorder = 'link:PmenuBorder'
+HintBorder = 'link:DiagnosticHint'
+CompletionBorder = 'link:DiagnosticWarn'
 
 [git]
 DiffAdd = 'diff_add_fg diff_add_bg'
@@ -268,8 +270,6 @@ CmpItemKindMethod = 'link:CmpItemKindFunction'
 CmpItemKindKeyword = 'link:Statement'
 CmpItemKindProperty = 'link:CmpItemKindKeyword'
 CmpItemKindUnit = 'link:CmpItemKindKeyword'
-CmpHint = 'link:DiagnosticHint'
-CmpStar = 'link:DiagnosticWarn'
 
 [nvim-tree]
 NvimTreeNormal = 'link:Pmenu'

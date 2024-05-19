@@ -40,6 +40,8 @@ theme.set_highlights = function()
   hl(0, "PmenuSeparator", { fg = c.visual_bg, bg = c.float_bg })
   hl(0, "PmenuEnd", { fg = c.float_bg, bg = c.float_bg })
   hl(0, "FloatBorder", { link = 'PmenuBorder' })
+  hl(0, "HintBorder", { link = 'DiagnosticHint' })
+  hl(0, "CompletionBorder", { link = 'DiagnosticWarn' })
 
   -- git
   hl(0, "DiffAdd", { fg = c.diff_add_fg, bg = c.diff_add_bg })
@@ -191,8 +193,6 @@ theme.set_highlights = function()
   hl(0, "CmpItemKindKeyword", { link = 'Statement' })
   hl(0, "CmpItemKindProperty", { link = 'CmpItemKindKeyword' })
   hl(0, "CmpItemKindUnit", { link = 'CmpItemKindKeyword' })
-  hl(0, "CmpHint", { link = 'DiagnosticHint' })
-  hl(0, "CmpStar", { link = 'DiagnosticWarn' })
 
   -- nvim-tree
   hl(0, "NvimTreeNormal", { link = 'Pmenu' })
