@@ -228,11 +228,12 @@ WinBarIcon = 'win_bar_icon win_bar_bg'
 WinBarIconDarker = 'win_bar_icon float_bg'
 
 [noice]
+NoiceCmdlinePopup = 'link:Pmenu'
 NoiceCmdlinePopupBorder = 'link:PmenuPadding'
-NoiceCmdlinePopup = 'link:Normal'
 NoiceCmdlineIcon = 'link:Normal'
 NoicePopup = 'link:Normal'
 NoicePopupBorder = 'link:Normal'
+NoicePopupmenuMatch = 'link:CmpItemAbbrMatch'
 NoiceSplit = 'link:Pmenu'
 NoiceConfirm = 'link:Pmenu'
 
@@ -261,7 +262,7 @@ TelescopeBorder = 'link:PmenuSeparator'
 
 [cmp]
 CmpItemAbbrDeprecated = 'fold_fg - s'
-CmpItemAbbrMatch = 'identifier'
+CmpItemAbbrMatch = 'identifier - b'
 CmpItemAbbrMatchFuzzy = 'link:CmpItemAbbrMatch'
 CmpItemKindVariable = 'link:Identifier'
 CmpItemKindInterface = 'link:CmpItemKindVariable'

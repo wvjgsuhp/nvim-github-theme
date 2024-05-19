@@ -151,11 +151,12 @@ theme.set_highlights = function()
   hl(0, "WinBarIconDarker", { fg = c.win_bar_icon, bg = c.float_bg })
 
   -- noice
+  hl(0, "NoiceCmdlinePopup", { link = 'Pmenu' })
   hl(0, "NoiceCmdlinePopupBorder", { link = 'PmenuPadding' })
-  hl(0, "NoiceCmdlinePopup", { link = 'Normal' })
   hl(0, "NoiceCmdlineIcon", { link = 'Normal' })
   hl(0, "NoicePopup", { link = 'Normal' })
   hl(0, "NoicePopupBorder", { link = 'Normal' })
+  hl(0, "NoicePopupmenuMatch", { link = 'CmpItemAbbrMatch' })
   hl(0, "NoiceSplit", { link = 'Pmenu' })
   hl(0, "NoiceConfirm", { link = 'Pmenu' })
 
@@ -184,7 +185,7 @@ theme.set_highlights = function()
 
   -- cmp
   hl(0, "CmpItemAbbrDeprecated", { fg = c.fold_fg, bg = 'NONE', strikethrough=true, })
-  hl(0, "CmpItemAbbrMatch", { fg = c.identifier, bg = 'NONE' })
+  hl(0, "CmpItemAbbrMatch", { fg = c.identifier, bg = 'NONE', bold=true, })
   hl(0, "CmpItemAbbrMatchFuzzy", { link = 'CmpItemAbbrMatch' })
   hl(0, "CmpItemKindVariable", { link = 'Identifier' })
   hl(0, "CmpItemKindInterface", { link = 'CmpItemKindVariable' })
