@@ -83,6 +83,7 @@ theme.set_highlights = function()
   hl(0, "DiagnosticInfo", { fg = c.info, bg = 'NONE' })
   hl(0, "DiagnosticHint", { fg = c.hint, bg = 'NONE' })
   hl(0, "DiagnosticOk", { fg = c.ok, bg = 'NONE' })
+  hl(0, "LspInfoBorder", { link = 'PmenuBorder' })
 
   -- nvim-navic
   hl(0, "NavicIconsModule", { fg = c.fg, bg = c.win_bar_bg, bold=true, })
