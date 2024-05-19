@@ -161,7 +161,7 @@ DiagnosticInfo = 'info'
 DiagnosticHint = 'hint'
 DiagnosticOk = 'ok'
 
-LspInfoBorder = 'link:PmenuBorder'
+LspInfoBorder = 'link:PmenuPadding'
 
 [nvim-navic]
 NavicIconsModule = 'fg win_bar_bg b'
