@@ -109,7 +109,7 @@ PmenuSbar = 'line_number fold_bg'
 PmenuThumb = 'status_line_bg status_line_bg'
 PmenuBorder = 'float_bg float_bg'
 PmenuPadding = 'float_bg bg'
-PmenuTitle = 'fg float_bg'
+PmenuTitle = 'fg float_bg b'
 PmenuSeparator = 'visual_bg float_bg'
 PmenuEnd = 'float_bg float_bg'
 
