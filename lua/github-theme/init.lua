@@ -1,18 +1,19 @@
 local M = {}
-local theme = require('github.theme')
+local theme = require("github-theme.theme")
 
 M.setup = function()
-  vim.cmd('hi clear')
+  vim.cmd("hi clear")
 
-  vim.o.background = 'light'
-  if vim.fn.exists('syntax_on') then
-    vim.cmd('syntax reset')
+  vim.o.background = "light"
+  if vim.fn.exists("syntax_on") then
+    vim.cmd("syntax reset")
   end
 
   vim.o.termguicolors = true
-  vim.g.colors_name = 'github'
+  vim.g.colors_name = "github"
 
   theme.set_highlights()
 end
 
 return M
+
