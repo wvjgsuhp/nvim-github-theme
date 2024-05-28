@@ -1,1 +1,1 @@
-require("github").setup()
+require("github-theme").setup()
