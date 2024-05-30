@@ -1,5 +1,5 @@
 
-local c = require('github-theme.palette')
+local c = require('github.palette')
 
 local hl = vim.api.nvim_set_hl
 local theme = {}
