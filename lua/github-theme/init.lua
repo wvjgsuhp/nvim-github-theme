@@ -1,5 +1,5 @@
 local M = {}
-local theme = require('github.theme')
+local theme = require('github-theme.theme')
 
 M.setup = function()
   vim.cmd('hi clear')
