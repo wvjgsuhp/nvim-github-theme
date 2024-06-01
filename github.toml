@@ -288,6 +288,7 @@ LazyNormal = 'link:Pmenu'
 WhichKeyFloat = 'link:Pmenu'
 
 DashboardHeader = 'link:Ignore'
+DashboardText = 'statement'
 DashboardFooter = 'link:Constant'
 
 MasonNormal = 'link:Pmenu'
