@@ -287,7 +287,7 @@ yamlBool = 'link:Special'
 yamlPlainScalar = 'link:String'
 yamlFlowCollection = 'link:@punctuation.delimiter'
 yamlFlowStingDelimiter = 'link:@punctuation.delimiter'
-yamlCollectionItemStart = 'link:@punctuation.delimiter'
+yamlBlockCollectionItemStart = 'link:@punctuation.delimiter'
 
 [misc]
 LazyNormal = 'link:Pmenu'
