@@ -286,7 +286,7 @@ yamlBlockMappingKey = 'link:@variable.member'
 yamlBool = 'link:Special'
 yamlPlainScalar = 'link:String'
 yamlFlowCollection = 'link:@punctuation.delimiter'
-yamlFlowStingDelimiter = 'link:@punctuation.delimiter'
+yamlFlowStringDelimiter = 'link:@punctuation.delimiter'
 yamlBlockCollectionItemStart = 'link:@punctuation.delimiter'
 
 [misc]
