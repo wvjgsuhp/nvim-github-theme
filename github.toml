@@ -115,9 +115,8 @@ PmenuTitle = 'fg float_bg b'
 PmenuSeparator = 'visual_bg float_bg'
 PmenuEnd = 'float_bg float_bg'
 
+NormalFloat = '- bg'
 FloatBorder = 'link:PmenuBorder'
-HintBorder = 'link:DiagnosticHint'
-CompletionBorder = 'link:DiagnosticWarn'
 
 [git]
 DiffAdd = 'diff_add_fg diff_add_bg'
