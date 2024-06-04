@@ -281,6 +281,14 @@ NvimTreeLineNr = 'link:Pmenu'
 NvimTreeCursorLine = 'link:PmenuSel'
 NvimTreeEndOfBuffer = 'link:PmenuBorder'
 
+[file-type]
+yamlBlockMappingKey = 'link:@variable.member'
+yamlBool = 'link:Special'
+yamlPlainScalar = 'link:String'
+yamlFlowCollection = 'link:@punctuation.delimiter'
+yamlFlowStingDelimiter = 'link:@punctuation.delimiter'
+yamlCollectionItemStart = 'link:@punctuation.delimiter'
+
 [misc]
 LazyNormal = 'link:Pmenu'
 
