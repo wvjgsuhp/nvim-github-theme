@@ -210,6 +210,7 @@ theme.set_highlights = function()
   hl(0, "yamlPlainScalar", { link = 'String' })
   hl(0, "yamlFlowCollection", { link = '@punctuation.delimiter' })
   hl(0, "yamlBlockCollectionItemStart", { link = '@punctuation.delimiter' })
+  hl(0, "tomlKey", { link = '@variable.member' })
 
   -- misc
   hl(0, "LazyNormal", { link = 'Pmenu' })

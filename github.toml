@@ -289,6 +289,8 @@ yamlPlainScalar = 'link:String'
 yamlFlowCollection = 'link:@punctuation.delimiter'
 yamlBlockCollectionItemStart = 'link:@punctuation.delimiter'
 
+tomlKey = 'link:@variable.member'
+
 [misc]
 LazyNormal = 'link:Pmenu'
 
