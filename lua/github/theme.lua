@@ -204,13 +204,11 @@ theme.set_highlights = function()
   hl(0, "NvimTreeEndOfBuffer", { link = 'PmenuBorder' })
 
   -- file-type
-  hl(0, "yamlBlockMappingKey", { link = '@variable.member' })
   hl(0, "yamlBool", { link = 'Special' })
   hl(0, "yamlNull", { link = 'Special' })
   hl(0, "yamlPlainScalar", { link = 'String' })
   hl(0, "yamlFlowCollection", { link = '@punctuation.delimiter' })
   hl(0, "yamlBlockCollectionItemStart", { link = '@punctuation.delimiter' })
-  hl(0, "tomlKey", { link = '@variable.member' })
 
   -- misc
   hl(0, "LazyNormal", { link = 'Pmenu' })
