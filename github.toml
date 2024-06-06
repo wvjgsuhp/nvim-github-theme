@@ -299,6 +299,10 @@ WhichKeyFloat = 'link:Pmenu'
 DashboardHeader = 'link:Ignore'
 DashboardText = 'function_'
 DashboardFooter = 'link:Comment'
+DashboardDesc = 'link:Function'
+DashboardIcon = 'link:DashboardDesc'
+DashboardKey = 'link:String'
+
 
 MasonNormal = 'link:Pmenu'
 MasonHeader = 'link:PmenuTitle'
