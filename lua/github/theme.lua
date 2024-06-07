@@ -161,7 +161,7 @@ theme.set_highlights = function()
   hl(0, "NoicePopup", { link = 'Normal' })
   hl(0, "NoicePopupBorder", { link = 'Normal' })
   hl(0, "NoicePopupmenuMatch", { link = 'CmpItemAbbrMatch' })
-  hl(0, "NoiceSplit", { link = 'Pmenu' })
+  hl(0, "NoiceSplit", { link = 'Normal' })
   hl(0, "NoiceConfirm", { link = 'Pmenu' })
   hl(0, "NoiceCmdlinePopupBorderSearch", { fg = c.warning, bg = c.bg })
 
