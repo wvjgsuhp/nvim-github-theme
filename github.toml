@@ -95,6 +95,8 @@ ColorColumn = '- white_space'
 # SignColumn
 VertSplit = 'status_line_bg bg'
 LineNr = 'line_number bg'
+LineNrAbove = 'git_add bg'
+LineNrBelow = 'git_delete bg'
 EndOfBuffer = 'bg'
 Whitespace = 'white_space'
 CursorLine = '- fold_bg'
@@ -263,6 +265,7 @@ TelescopePromptCounter = 'line_number'
 TelescopePromptNormal = 'link:Pmenu'
 TelescopeTitle = 'link:PmenuTitle'
 TelescopeBorder = 'link:PmenuSeparator'
+TelescopeResultsLineNr = 'line_number float_bg'
 
 [cmp]
 CmpItemAbbrDeprecated = 'fold_fg - s'
