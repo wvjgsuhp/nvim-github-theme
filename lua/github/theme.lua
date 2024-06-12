@@ -50,9 +50,9 @@ theme.set_highlights = function()
   hl(0, "DiffChange", { fg = 'NONE', bg = c.fold_bg })
   hl(0, "DiffText", { fg = c.diff_text_fg, bg = c.diff_text_bg })
   hl(0, "DiffDelete", { fg = c.diff_delete_fg, bg = c.diff_delete_bg })
-  hl(0, "GitSignsAdd", { fg = c.git_add, bg = 'NONE' })
-  hl(0, "GitSignsDelete", { fg = c.git_delete, bg = 'NONE' })
-  hl(0, "GitSignsChange", { fg = c.git_change, bg = 'NONE' })
+  hl(0, "GitSignsAdd", { fg = c.ok, bg = 'NONE' })
+  hl(0, "GitSignsDelete", { fg = c.status_line_remove, bg = 'NONE' })
+  hl(0, "GitSignsChange", { fg = c.v1, bg = 'NONE' })
 
   -- syntax
   hl(0, "Ignore", { fg = c.fold_fg, bg = 'NONE' })

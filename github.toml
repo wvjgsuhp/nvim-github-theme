@@ -127,9 +127,9 @@ DiffAdd = 'diff_add_fg diff_add_bg'
 DiffChange = '- fold_bg'
 DiffText = 'diff_text_fg diff_text_bg'
 DiffDelete = 'diff_delete_fg diff_delete_bg'
-GitSignsAdd = 'git_add'
-GitSignsDelete = 'git_delete'
-GitSignsChange = 'git_change'
+GitSignsAdd = 'ok'
+GitSignsDelete = 'status_line_remove'
+GitSignsChange = 'v1'
 
 [syntax]
 Ignore = 'fold_fg'
