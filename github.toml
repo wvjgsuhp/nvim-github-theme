@@ -107,6 +107,7 @@ MatchParen = 'fg match_paren'
 FoldColumn = 'link:Folded'
 CursorColumn = 'link:CursorLine'
 NonText = 'link:LineNr'
+Directory = 'constant'
 
 [floating-window]
 Pmenu = 'fg float_bg'
@@ -294,7 +295,7 @@ NvimTreeCursorLine = 'link:PmenuSel'
 NvimTreeEndOfBuffer = 'link:PmenuBorder'
 
 [neo-tree]
-NeoTreeRootName = 'NvimDarkCyan - b'
+NeoTreeRootName = 'constant - b'
 NeoTreeTitleBar = 'link:TelescopeTitle'
 NeoTreeNormal = 'link:Pmenu'
 NeoTreeFloatNormal = 'link:Pmenu'
