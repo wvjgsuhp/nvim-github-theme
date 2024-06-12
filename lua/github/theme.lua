@@ -214,6 +214,7 @@ theme.set_highlights = function()
   hl(0, "NvimTreeEndOfBuffer", { link = 'PmenuBorder' })
 
   -- neo-tree
+  hl(0, "NeoTreeTitleBar", { fg = 'NONE', bg = 'NONE' })
   hl(0, "NeoTreeNormal", { link = 'Pmenu' })
   hl(0, "NeoTreeFloatNormal", { link = 'Pmenu' })
   hl(0, "NeoTreeFloatTitle", { link = 'NeoTreeFloatBorder' })
