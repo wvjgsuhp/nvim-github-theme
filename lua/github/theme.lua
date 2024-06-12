@@ -213,6 +213,13 @@ theme.set_highlights = function()
   hl(0, "NvimTreeCursorLine", { link = 'PmenuSel' })
   hl(0, "NvimTreeEndOfBuffer", { link = 'PmenuBorder' })
 
+  -- neo-tree
+  hl(0, "NeoTreeNormal", { link = 'Pmenu' })
+  hl(0, "NeoTreeNormalFloat", { link = 'Pmenu' })
+  hl(0, "NeoTreeLineNr", { link = 'Pmenu' })
+  hl(0, "NeoTreeCursorLine", { link = 'PmenuSel' })
+  hl(0, "NeoTreeEndOfBuffer", { link = 'PmenuBorder' })
+
   -- file-type
   hl(0, "yamlBool", { link = 'Special' })
   hl(0, "yamlNull", { link = 'Special' })

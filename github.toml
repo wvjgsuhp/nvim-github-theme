@@ -293,6 +293,13 @@ NvimTreeLineNr = 'link:Pmenu'
 NvimTreeCursorLine = 'link:PmenuSel'
 NvimTreeEndOfBuffer = 'link:PmenuBorder'
 
+[neo-tree]
+NeoTreeNormal = 'link:Pmenu'
+NeoTreeNormalFloat = 'link:Pmenu'
+NeoTreeLineNr = 'link:Pmenu'
+NeoTreeCursorLine = 'link:PmenuSel'
+NeoTreeEndOfBuffer = 'link:PmenuBorder'
+
 [file-type]
 yamlBool = 'link:Special'
 yamlNull = 'link:Special'
