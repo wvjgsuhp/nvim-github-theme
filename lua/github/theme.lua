@@ -215,7 +215,7 @@ theme.set_highlights = function()
 
   -- neo-tree
   hl(0, "NeoTreeNormal", { link = 'Pmenu' })
-  hl(0, "NeoTreeNormalFloat", { link = 'Pmenu' })
+  hl(0, "NeoTreeFloatNormal", { link = 'Pmenu' })
   hl(0, "NeoTreeFloatTitle", { link = 'NeoTreeFloatBorder' })
   hl(0, "NeoTreeLineNr", { link = 'Pmenu' })
   hl(0, "NeoTreeCursorLine", { link = 'PmenuSel' })

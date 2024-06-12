@@ -295,7 +295,7 @@ NvimTreeEndOfBuffer = 'link:PmenuBorder'
 
 [neo-tree]
 NeoTreeNormal = 'link:Pmenu'
-NeoTreeNormalFloat = 'link:Pmenu'
+NeoTreeFloatNormal = 'link:Pmenu'
 NeoTreeFloatTitle = 'link:NeoTreeFloatBorder'
 NeoTreeLineNr = 'link:Pmenu'
 NeoTreeCursorLine = 'link:PmenuSel'
