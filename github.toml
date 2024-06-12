@@ -296,12 +296,15 @@ NvimTreeEndOfBuffer = 'link:PmenuBorder'
 [neo-tree]
 NeoTreeNormal = 'link:Pmenu'
 NeoTreeNormalFloat = 'link:Pmenu'
+NeoTreeFloatTitle = 'link:NeoTreeFloatBorder'
 NeoTreeLineNr = 'link:Pmenu'
 NeoTreeCursorLine = 'link:PmenuSel'
 NeoTreeEndOfBuffer = 'link:PmenuBorder'
 NeoTreeGitAdded = 'ok'
 NeoTreeGitDeleted = 'status_line_remove'
 NeoTreeGitModified = 'v1'
+NeoTreeGitUntracked = 'warning'
+NeoTreeGitConflict = 'warning - b'
 
 [file-type]
 yamlBool = 'link:Special'

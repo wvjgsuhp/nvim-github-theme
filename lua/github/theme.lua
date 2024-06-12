@@ -216,12 +216,15 @@ theme.set_highlights = function()
   -- neo-tree
   hl(0, "NeoTreeNormal", { link = 'Pmenu' })
   hl(0, "NeoTreeNormalFloat", { link = 'Pmenu' })
+  hl(0, "NeoTreeFloatTitle", { link = 'NeoTreeFloatBorder' })
   hl(0, "NeoTreeLineNr", { link = 'Pmenu' })
   hl(0, "NeoTreeCursorLine", { link = 'PmenuSel' })
   hl(0, "NeoTreeEndOfBuffer", { link = 'PmenuBorder' })
   hl(0, "NeoTreeGitAdded", { fg = c.ok, bg = 'NONE' })
   hl(0, "NeoTreeGitDeleted", { fg = c.status_line_remove, bg = 'NONE' })
   hl(0, "NeoTreeGitModified", { fg = c.v1, bg = 'NONE' })
+  hl(0, "NeoTreeGitUntracked", { fg = c.warning, bg = 'NONE' })
+  hl(0, "NeoTreeGitConflict", { fg = c.warning, bg = 'NONE', bold=true, })
 
   -- file-type
   hl(0, "yamlBool", { link = 'Special' })
