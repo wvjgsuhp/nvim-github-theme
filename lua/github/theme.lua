@@ -248,6 +248,7 @@ theme.set_highlights = function()
   hl(0, "MasonNormal", { link = 'Pmenu' })
   hl(0, "MasonHeader", { link = 'PmenuTitle' })
   hl(0, "FlashLabel", { fg = c.white, bg = c.function_, bold=true, })
+  hl(0, "FlashPromptIcon", { fg = c.search_bg, bg = c.warning })
   hl(0, "Floaterm", { link = 'Pmenu' })
   hl(0, "FloatermBorder", { link = 'Pmenu' })
 end

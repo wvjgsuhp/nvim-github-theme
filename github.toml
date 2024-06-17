@@ -36,7 +36,7 @@ white_space = '#e4e4e4'
 line_number = '#959595'
 match_paren = '#cdcdfd'
 
-warning = '#FF895C'
+warning = '#ff895c'
 error = '#ff0000'
 info = '#888888'
 hint = '#87d7ff'
@@ -333,6 +333,7 @@ MasonNormal = 'link:Pmenu'
 MasonHeader = 'link:PmenuTitle'
 
 FlashLabel = 'white function_ b'
+FlashPromptIcon = 'search_bg warning'
 
 Floaterm = 'link:Pmenu'
 FloatermBorder = 'link:Pmenu'
