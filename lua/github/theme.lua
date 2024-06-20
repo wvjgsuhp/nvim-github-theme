@@ -162,6 +162,7 @@ theme.set_highlights = function()
   -- noice
   hl(0, "NoiceCmdlinePopup", { link = 'Pmenu' })
   hl(0, "NoiceCmdlinePopupBorder", { link = 'PmenuPadding' })
+  hl(0, "NoiceCmdlinePopupBorderSearch", { link = 'NoiceCmdlinePopupBorder' })
   hl(0, "NoiceCmdlineIcon", { link = 'Normal' })
   hl(0, "NoiceCmdlineIconLua", { link = 'Function' })
   hl(0, "NoiceCmdlineIconFilter", { link = 'Special' })

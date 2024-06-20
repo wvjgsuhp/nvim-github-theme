@@ -242,6 +242,7 @@ WinBarIconDarker = 'win_bar_icon float_bg'
 [noice]
 NoiceCmdlinePopup = 'link:Pmenu'
 NoiceCmdlinePopupBorder = 'link:PmenuPadding'
+NoiceCmdlinePopupBorderSearch = 'link:NoiceCmdlinePopupBorder'
 NoiceCmdlineIcon = 'link:Normal'
 NoiceCmdlineIconLua = 'link:Function'
 NoiceCmdlineIconFilter = 'link:Special'
