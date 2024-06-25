@@ -61,7 +61,7 @@ spell_bad = '#fcaf3e'
 spell_cap = '#73d216'
 spell_local = '#729fcf'
 
-status_line = '#dddddd'
+status_line = '#f6f8fa'
 record = '#ff0000'
 n1 = '#000000'
 n2 = '#404040'
