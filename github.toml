@@ -156,6 +156,9 @@ TypeDef = 'link:Label'
 '@punctuation.bracket' = 'link:@punctuation.delimiter'
 '@variable.builtin' = 'link:@punctuation.delimiter'
 '@operator' = 'fg'
+'@tag' = 'link:@function'
+'@tag.attribute' = 'link:@variable.member'
+'@tag.delimiter' = 'link:@punctuation.delimiter'
 
 [lsp]
 LspReferenceText = '- lsp_reference_text_bg'

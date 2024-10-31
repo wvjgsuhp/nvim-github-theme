@@ -78,6 +78,9 @@ theme.set_highlights = function()
   hl(0, "@punctuation.bracket", { link = '@punctuation.delimiter' })
   hl(0, "@variable.builtin", { link = '@punctuation.delimiter' })
   hl(0, "@operator", { fg = c.fg, bg = 'NONE' })
+  hl(0, "@tag", { link = '@function' })
+  hl(0, "@tag.attribute", { link = '@variable.member' })
+  hl(0, "@tag.delimiter", { link = '@punctuation.delimiter' })
 
   -- lsp
   hl(0, "LspReferenceText", { fg = 'NONE', bg = c.lsp_reference_text_bg })
