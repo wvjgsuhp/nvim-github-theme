@@ -294,18 +294,17 @@ CmpItemKindKeyword = 'link:Statement'
 CmpItemKindProperty = 'link:CmpItemKindKeyword'
 CmpItemKindUnit = 'link:CmpItemKindKeyword'
 
-[blink.cmp]
+[blink-cmp]
 BlinkCmpLabelDeprecated = 'fold_fg - s'
 BlinkCmpLabelMatchMatch = 'function_ - b'
-# CmpItemAbbrMatchFuzzy = 'link:CmpItemAbbrMatch'
 BlinkCmpKindVariable = 'link:Identifier'
-BlinkCmpKindInterface = 'link:CmpItemKindVariable'
-BlinkCmpKindText = 'link:CmpItemKindVariable'
+BlinkCmpKindInterface = 'link:BlinkCmpKindVariable'
+BlinkCmpKindText = 'link:BlinkCmpKindVariable'
 BlinkCmpKindFunction = 'link:Function'
-BlinkCmpKindMethod = 'link:CmpItemKindFunction'
+BlinkCmpKindMethod = 'link:BlinkCmpKindFunction'
 BlinkCmpKindKeyword = 'link:Statement'
-BlinkCmpKindProperty = 'link:CmpItemKindKeyword'
-BlinkCmpKindUnit = 'link:CmpItemKindKeyword'
+BlinkCmpKindProperty = 'link:BlinkCmpKindKeyword'
+BlinkCmpKindUnit = 'link:BlinkCmpKindKeyword'
 
 [nvim-tree]
 NvimTreeNormal = 'link:Pmenu'
