@@ -294,6 +294,19 @@ CmpItemKindKeyword = 'link:Statement'
 CmpItemKindProperty = 'link:CmpItemKindKeyword'
 CmpItemKindUnit = 'link:CmpItemKindKeyword'
 
+[blink.cmp]
+BlinkCmpLabelDeprecated = 'fold_fg - s'
+BlinkCmpLabelMatchMatch = 'function_ - b'
+# CmpItemAbbrMatchFuzzy = 'link:CmpItemAbbrMatch'
+BlinkCmpKindVariable = 'link:Identifier'
+BlinkCmpKindInterface = 'link:CmpItemKindVariable'
+BlinkCmpKindText = 'link:CmpItemKindVariable'
+BlinkCmpKindFunction = 'link:Function'
+BlinkCmpKindMethod = 'link:CmpItemKindFunction'
+BlinkCmpKindKeyword = 'link:Statement'
+BlinkCmpKindProperty = 'link:CmpItemKindKeyword'
+BlinkCmpKindUnit = 'link:CmpItemKindKeyword'
+
 [nvim-tree]
 NvimTreeNormal = 'link:Pmenu'
 NvimTreeNormalFloat = 'link:Pmenu'

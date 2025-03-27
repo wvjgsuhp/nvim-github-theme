@@ -214,6 +214,8 @@ theme.set_highlights = function()
   hl(0, "CmpItemKindProperty", { link = 'CmpItemKindKeyword' })
   hl(0, "CmpItemKindUnit", { link = 'CmpItemKindKeyword' })
 
+  -- blink
+
   -- nvim-tree
   hl(0, "NvimTreeNormal", { link = 'Pmenu' })
   hl(0, "NvimTreeNormalFloat", { link = 'Pmenu' })
