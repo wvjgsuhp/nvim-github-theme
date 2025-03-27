@@ -216,7 +216,7 @@ theme.set_highlights = function()
 
   -- blink-cmp
   hl(0, "BlinkCmpLabelDeprecated", { fg = c.fold_fg, bg = 'NONE', strikethrough=true, })
-  hl(0, "BlinkCmpLabelMatchMatch", { fg = c.function_, bg = 'NONE', bold=true, })
+  hl(0, "BlinkCmpLabelMatch", { fg = c.function_, bg = 'NONE', bold=true, })
   hl(0, "BlinkCmpKindVariable", { link = 'Identifier' })
   hl(0, "BlinkCmpKindInterface", { link = 'BlinkCmpKindVariable' })
   hl(0, "BlinkCmpKindText", { link = 'BlinkCmpKindVariable' })

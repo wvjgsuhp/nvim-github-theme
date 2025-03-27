@@ -296,7 +296,7 @@ CmpItemKindUnit = 'link:CmpItemKindKeyword'
 
 [blink-cmp]
 BlinkCmpLabelDeprecated = 'fold_fg - s'
-BlinkCmpLabelMatchMatch = 'function_ - b'
+BlinkCmpLabelMatch = 'function_ - b'
 BlinkCmpKindVariable = 'link:Identifier'
 BlinkCmpKindInterface = 'link:BlinkCmpKindVariable'
 BlinkCmpKindText = 'link:BlinkCmpKindVariable'
