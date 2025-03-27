@@ -215,8 +215,10 @@ theme.set_highlights = function()
   hl(0, "CmpItemKindUnit", { link = 'CmpItemKindKeyword' })
 
   -- blink-cmp
+  hl(0, "BlinkCmpMenu", { link = 'NormalFloat' })
   hl(0, "BlinkCmpLabelDeprecated", { fg = c.fold_fg, bg = 'NONE', strikethrough=true, })
   hl(0, "BlinkCmpLabelMatch", { fg = c.function_, bg = 'NONE', bold=true, })
+  hl(0, "BlinkCmpKind", { link = 'Normal' })
   hl(0, "BlinkCmpKindVariable", { link = 'Identifier' })
   hl(0, "BlinkCmpKindInterface", { link = 'BlinkCmpKindVariable' })
   hl(0, "BlinkCmpKindText", { link = 'BlinkCmpKindVariable' })
@@ -225,6 +227,8 @@ theme.set_highlights = function()
   hl(0, "BlinkCmpKindKeyword", { link = 'Statement' })
   hl(0, "BlinkCmpKindProperty", { link = 'BlinkCmpKindKeyword' })
   hl(0, "BlinkCmpKindUnit", { link = 'BlinkCmpKindKeyword' })
+  hl(0, "BlinkCmpKindSnippet", { link = 'Special' })
+  hl(0, "BlinkCmpKindClass", { link = 'Type' })
 
   -- nvim-tree
   hl(0, "NvimTreeNormal", { link = 'Pmenu' })

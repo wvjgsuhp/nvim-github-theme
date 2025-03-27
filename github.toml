@@ -295,8 +295,10 @@ CmpItemKindProperty = 'link:CmpItemKindKeyword'
 CmpItemKindUnit = 'link:CmpItemKindKeyword'
 
 [blink-cmp]
+BlinkCmpMenu = 'link:NormalFloat'
 BlinkCmpLabelDeprecated = 'fold_fg - s'
 BlinkCmpLabelMatch = 'function_ - b'
+BlinkCmpKind = 'link:Normal'
 BlinkCmpKindVariable = 'link:Identifier'
 BlinkCmpKindInterface = 'link:BlinkCmpKindVariable'
 BlinkCmpKindText = 'link:BlinkCmpKindVariable'
@@ -305,6 +307,33 @@ BlinkCmpKindMethod = 'link:BlinkCmpKindFunction'
 BlinkCmpKindKeyword = 'link:Statement'
 BlinkCmpKindProperty = 'link:BlinkCmpKindKeyword'
 BlinkCmpKindUnit = 'link:BlinkCmpKindKeyword'
+BlinkCmpKindSnippet = 'link:Special'
+BlinkCmpKindClass = 'link:Type'
+
+# BlinkCmpKindText xxx links to BlinkCmpKind
+# BlinkCmpKindMethod xxx links to BlinkCmpKind
+# BlinkCmpKindFunction xxx links to BlinkCmpKind
+# BlinkCmpKindConstructor xxx links to BlinkCmpKind
+# BlinkCmpKindField xxx links to BlinkCmpKind
+# BlinkCmpKindVariable xxx links to BlinkCmpKind
+# BlinkCmpKindClass xxx links to BlinkCmpKind
+# BlinkCmpKindInterface xxx links to BlinkCmpKind
+# BlinkCmpKindModule xxx links to BlinkCmpKind
+# BlinkCmpKindProperty xxx links to BlinkCmpKind
+# BlinkCmpKindUnit xxx links to BlinkCmpKind
+# BlinkCmpKindValue xxx links to BlinkCmpKind
+# BlinkCmpKindEnum xxx links to BlinkCmpKind
+# BlinkCmpKindKeyword xxx links to BlinkCmpKind
+# BlinkCmpKindColor xxx links to BlinkCmpKind
+# BlinkCmpKindFile xxx links to BlinkCmpKind
+# BlinkCmpKindReference xxx links to BlinkCmpKind
+# BlinkCmpKindFolder xxx links to BlinkCmpKind
+# BlinkCmpKindEnumMember xxx links to BlinkCmpKind
+# BlinkCmpKindConstant xxx links to BlinkCmpKind
+# BlinkCmpKindStruct xxx links to BlinkCmpKind
+# BlinkCmpKindEvent xxx links to BlinkCmpKind
+# BlinkCmpKindOperator xxx links to BlinkCmpKind
+# BlinkCmpKindTypeParameter xxx links to BlinkCmpKind
 
 [nvim-tree]
 NvimTreeNormal = 'link:Pmenu'
