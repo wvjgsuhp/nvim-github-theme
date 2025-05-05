@@ -235,7 +235,7 @@ theme.set_highlights = function()
   hl(0, "BlinkCmpKindClass", { link = 'Type' })
   hl(0, "BlinkCmpKindConstant", { link = 'Constant' })
   hl(0, "BlinkCmpKindFile", { link = 'BlinkCmpKindModule' })
-  hl(0, "BlinkCmpKindFolder", { link = 'BlinkCmpKindModule' })
+  hl(0, "BlinkCmpKindFolder", { link = 'Number' })
 
   -- nvim-tree
   hl(0, "NvimTreeNormal", { link = 'Pmenu' })

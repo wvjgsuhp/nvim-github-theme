@@ -315,7 +315,7 @@ BlinkCmpKindSnippet = 'link:Special'
 BlinkCmpKindClass = 'link:Type'
 BlinkCmpKindConstant = 'link:Constant'
 BlinkCmpKindFile = 'link:BlinkCmpKindModule'
-BlinkCmpKindFolder = 'link:BlinkCmpKindModule'
+BlinkCmpKindFolder = 'link:Number'
 
 # BlinkCmpKindText xxx links to BlinkCmpKind
 # BlinkCmpKindMethod xxx links to BlinkCmpKind
