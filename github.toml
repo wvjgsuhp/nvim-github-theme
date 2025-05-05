@@ -307,12 +307,15 @@ BlinkCmpKindMethod = 'link:BlinkCmpKindFunction'
 BlinkCmpKindModule = 'fg'
 BlinkCmpKindKeyword = 'link:Statement'
 BlinkCmpKindProperty = 'link:BlinkCmpKindKeyword'
+BlinkCmpKindEnum = 'link:Type'
 BlinkCmpKindEnumMember = 'link:BlinkCmpKindKeyword'
 BlinkCmpKindField = 'link:BlinkCmpKindKeyword'
 BlinkCmpKindUnit = 'link:BlinkCmpKindKeyword'
 BlinkCmpKindSnippet = 'link:Special'
 BlinkCmpKindClass = 'link:Type'
 BlinkCmpKindConstant = 'link:Constant'
+BlinkCmpKindFile = 'link:BlinkCmpKindModule'
+BlinkCmpKindFolder = 'link:BlinkCmpKindModule'
 
 # BlinkCmpKindText xxx links to BlinkCmpKind
 # BlinkCmpKindMethod xxx links to BlinkCmpKind
