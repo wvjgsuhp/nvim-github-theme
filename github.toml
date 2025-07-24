@@ -318,31 +318,12 @@ BlinkCmpKindConstant = 'link:Constant'
 BlinkCmpKindValue = 'link:BlinkCmpKindConstant'
 BlinkCmpKindFile = 'link:BlinkCmpKindModule'
 BlinkCmpKindFolder = 'link:Number'
-
-# BlinkCmpKindText xxx links to BlinkCmpKind
-# BlinkCmpKindMethod xxx links to BlinkCmpKind
-# BlinkCmpKindFunction xxx links to BlinkCmpKind
-# BlinkCmpKindConstructor xxx links to BlinkCmpKind
-# BlinkCmpKindField xxx links to BlinkCmpKind
-# BlinkCmpKindVariable xxx links to BlinkCmpKind
-# BlinkCmpKindClass xxx links to BlinkCmpKind
-# BlinkCmpKindInterface xxx links to BlinkCmpKind
-# BlinkCmpKindModule xxx links to BlinkCmpKind
-# BlinkCmpKindProperty xxx links to BlinkCmpKind
-# BlinkCmpKindUnit xxx links to BlinkCmpKind
-# BlinkCmpKindValue xxx links to BlinkCmpKind
-# BlinkCmpKindEnum xxx links to BlinkCmpKind
-# BlinkCmpKindKeyword xxx links to BlinkCmpKind
-# BlinkCmpKindColor xxx links to BlinkCmpKind
-# BlinkCmpKindFile xxx links to BlinkCmpKind
-# BlinkCmpKindReference xxx links to BlinkCmpKind
-# BlinkCmpKindFolder xxx links to BlinkCmpKind
-# BlinkCmpKindEnumMember xxx links to BlinkCmpKind
-# BlinkCmpKindConstant xxx links to BlinkCmpKind
-# BlinkCmpKindStruct xxx links to BlinkCmpKind
-# BlinkCmpKindEvent xxx links to BlinkCmpKind
-# BlinkCmpKindOperator xxx links to BlinkCmpKind
-# BlinkCmpKindTypeParameter xxx links to BlinkCmpKind
+BlinkCmpKindConstructor = 'link:Type'
+BlinkCmpKindColor = 'link:BlinkCmpKind'
+BlinkCmpKindReference = 'link:Special'
+# BlinkCmpKindEvent = links to BlinkCmpKind
+BlinkCmpKindOperator = 'link:Special'
+BlinkCmpKindTypeParameter = 'link:Type'
 
 [nvim-tree]
 NvimTreeNormal = 'link:Pmenu'
