@@ -280,6 +280,7 @@ TelescopePromptNormal = 'link:Pmenu'
 TelescopeTitle = 'link:PmenuTitle'
 TelescopeBorder = 'link:PmenuSeparator'
 TelescopeResultsLineNr = 'line_number float_bg'
+TelescopeMatching = 'link:Search'
 
 [cmp]
 CmpItemAbbrDeprecated = 'fold_fg - s'

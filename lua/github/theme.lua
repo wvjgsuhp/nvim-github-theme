@@ -200,6 +200,7 @@ theme.set_highlights = function()
   hl(0, "TelescopeTitle", { link = 'PmenuTitle' })
   hl(0, "TelescopeBorder", { link = 'PmenuSeparator' })
   hl(0, "TelescopeResultsLineNr", { fg = c.line_number, bg = c.float_bg })
+  hl(0, "TelescopeMatching", { link = 'Search' })
 
   -- cmp
   hl(0, "CmpItemAbbrDeprecated", { fg = c.fold_fg, bg = 'NONE', strikethrough=true, })
