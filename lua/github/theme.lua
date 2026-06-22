@@ -47,10 +47,10 @@ theme.set_highlights = function()
   hl(0, "FloatBorder", { link = 'PmenuBorder' })
 
   -- git
-  hl(0, "DiffAdd", { fg = c.diff_add_fg, bg = c.diff_add_bg })
+  hl(0, "DiffAdd", { fg = 'NONE', bg = c.diff_add_bg })
   hl(0, "DiffChange", { fg = 'NONE', bg = c.fold_bg })
-  hl(0, "DiffText", { fg = c.diff_text_fg, bg = c.diff_text_bg })
-  hl(0, "DiffDelete", { fg = c.diff_delete_fg, bg = c.diff_delete_bg })
+  hl(0, "DiffText", { fg = 'NONE', bg = c.diff_text_bg })
+  hl(0, "DiffDelete", { fg = 'NONE', bg = c.diff_delete_bg })
   hl(0, "GitSignsAdd", { fg = c.git_add, bg = 'NONE' })
   hl(0, "GitSignsDelete", { fg = c.git_delete, bg = 'NONE' })
   hl(0, "GitSignsChange", { fg = c.git_change, bg = 'NONE' })
