@@ -13,9 +13,6 @@ red = '#ff0000'
 
 fold_fg = '#808080'
 status_line_fg = '#404040'
-diff_add_fg = '#003300'
-diff_text_fg = '#000033'
-diff_delete_fg = '#ddcccc'
 win_bar_fg = '#888888'
 
 cursor_bg = '#00f8f8'
